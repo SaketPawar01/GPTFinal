@@ -1,2 +1,3 @@
-Flask==2.2.2
-openai==0.27.8
+flask>=2.1.0
+openai
+Werkzeug==2.0.3
