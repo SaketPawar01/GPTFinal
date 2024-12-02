@@ -19,7 +19,7 @@ def generate():
     """
 
     try:
-        response = openai.ChatCompletion.create(
+        response = openai.Chat.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are a helpful assistant that generates interview questions and answers."},
